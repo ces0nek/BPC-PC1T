@@ -1,0 +1,8 @@
+{
+  "enableCMake": true,
+  "sourceDirectory": [
+    "cv03\\lightning",
+    "cv03\\Obdelniky",
+    "cv03\\FunExt"
+  ]
+}
