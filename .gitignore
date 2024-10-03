@@ -1,3 +1,4 @@
 # Foldes created by VisualStudio
 .vs
 out
+!.vs/CMakeWorkspaceSettings.json
