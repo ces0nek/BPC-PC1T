@@ -10,7 +10,7 @@ double A[3], B[3], C[3];
 
 int main()
 {
-	vectorMult(A,B,C);
+	vectorMult(A,B, &C[0]);
 	
 	cout << "Hello CMake." << endl;
 	return 0;
