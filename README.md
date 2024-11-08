@@ -1,2 +1,2 @@
 # Cvičení pro BPC-PC1T
-Zde naleznete vzorový repozitář a zadání úkolů do cvičení, nikoli řešení.
+Zde naleznete vzorový repozitář git a zadání některých úkolů do cvičení, nikoli jejich řešení.
