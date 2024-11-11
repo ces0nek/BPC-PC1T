@@ -8,9 +8,13 @@
 */
 struct vector3d operace(struct vector3d u, struct vector3d v,
 	enum typOperace typ) {
+	struct vector3d vysledek;
 	switch(typ) {
 	case soucet:
-		return(u);
+		vysledek.x = u.x + v.x;
+		vysledek.y = u.y + v.y;
+		vysledek.z = u.z + v.z;
+		return(vysledek);
 	case skalarniSoucin:
 		return(v);
 	case vektorovySoucin:
@@ -30,7 +34,7 @@ struct vector3d operace(struct vector3d u, struct vector3d v,
 void tisk(struct vector3d u) {
 	printf("w = (%f, %f, %f)\n", u.x, u.y, u.z);
 	double abs = sqrt(u.x*u.x + u.y*u.y + u.z*u.z);
-	printf("|w| = %f", abs);
+	printf("|w| = %f\n", abs);
 }
 
 /*
