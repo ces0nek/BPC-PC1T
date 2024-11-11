@@ -12,7 +12,7 @@ endif()
 project ("StructVector")
 
 # Přidejte zdrojový kód ke spustitelnému souboru tohoto projektu.
-add_executable (StructVector "StructVector.cpp" "StructVector.h")
+add_executable (StructVector "StructVector.cpp" "StructVector.h" "VectorMath.cpp" "VectorMath.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET StructVector PROPERTY CXX_STANDARD 20)
