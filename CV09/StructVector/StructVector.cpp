@@ -14,9 +14,9 @@ int main()
 	enum typOperace jakaOperace;
 	enum typOsy jakaOsa;
 
-	printf("Zadej vektor a (x, y, z): ");
+	printf("Zadej vektor a (x,y,z): ");
 	scanf_s("%lf,%lf,%lf", &a.x, &a.y, &a.z);
-	printf("Zadej vektor b (x, y, z): ");
+	printf("Zadej vektor b (x,y,z): ");
 	scanf_s("%lf,%lf,%lf", &b.x, &b.y, &b.z);
 		
 	printf("Zadej vektor operaci\n");
