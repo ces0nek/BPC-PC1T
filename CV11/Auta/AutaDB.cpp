@@ -50,6 +50,7 @@ void del(int rok, struct t_auto** uk_prvni)
 {
 	struct t_auto* aktAuto;
 
+	// Pokud je auto ke smazani na zacatku seznamu.
 	while (*uk_prvni && (*uk_prvni)->rok == rok)
 	{
 		struct t_auto* newPrvni = (*uk_prvni)->dalsi;
@@ -57,6 +58,7 @@ void del(int rok, struct t_auto** uk_prvni)
 		*uk_prvni = newPrvni;
 	}
 
+	// Mazani druheho a dalsich v seznamu
 	aktAuto = *uk_prvni;
 	while (aktAuto && aktAuto->dalsi) // prochazeni seznamu
 	{
