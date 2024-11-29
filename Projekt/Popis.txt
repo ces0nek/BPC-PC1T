@@ -1,0 +1,10 @@
+Nazev:
+Databaze aut v autobazaru
+
+Atori:
+Jan Knobloch, Ivo Pazdera
+
+Popis:
+Databaze aut nabizenych autobazarem Monte Karlo. V databazi je mozne pridavat, odebirat, upravovat cenu, stav a dalsi parametry.
+
+Pridejte dalsi poznamky, pokud jsou potreba...
