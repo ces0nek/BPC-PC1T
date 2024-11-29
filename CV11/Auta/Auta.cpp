@@ -17,8 +17,8 @@ void OnAdd()
 	int my_year;
 
 	printf("\nZnacka : ");         // dotazeme se na polozky
-	scanf_s("%s", my_name, ZNACKA_SIZE);
-	while (getchar() != '\n');
+	scanf_s("%[^\n]s", my_name, ZNACKA_SIZE);
+	while (getchar() != '\n'); // vyprazdni vstupni buffer
 	printf("\nRok : ");
 	scanf_s("%d", &my_year);
 	while (getchar() != '\n');
